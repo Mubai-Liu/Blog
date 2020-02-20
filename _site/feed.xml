@@ -1,4 +1,164 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-20T12:03:57-05:00</updated><id>http://localhost:4000/</id><title type="html">Mubai Liu</title><subtitle>Data Science Portfolio</subtitle><author><name>Mubai Liu</name><email>ml4407@columbia.edu</email></author><entry><title type="html">US 2016 Election Analysis</title><link href="http://localhost:4000/tutorial/Election/" rel="alternate" type="text/html" title="US 2016 Election Analysis" /><published>2018-06-11T00:00:00-04:00</published><updated>2018-06-11T00:00:00-04:00</updated><id>http://localhost:4000/tutorial/Election</id><content type="html" xml:base="http://localhost:4000/tutorial/Election/">&lt;h1 id=&quot;all-codes-in-github&quot;&gt;&lt;a href=&quot;https://github.com/Mubai-Liu/US-2016-Election&quot;&gt;All Codes in Github&lt;/a&gt;&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Blog/" rel="alternate" type="text/html" /><updated>2020-02-20T12:36:43-05:00</updated><id>http://localhost:4000/Blog/</id><title type="html">Mubai Liu’s Blog</title><subtitle>Data Science Portfolio</subtitle><author><name>Mubai Liu</name><email>ml4407@columbia.edu</email></author><entry><title type="html">Sample Post</title><link href="http://localhost:4000/Blog/Sample_post/" rel="alternate" type="text/html" title="Sample Post" /><published>2020-02-20T00:00:00-05:00</published><updated>2020-02-20T00:00:00-05:00</updated><id>http://localhost:4000/Blog/Sample_post</id><content type="html" xml:base="http://localhost:4000/Blog/Sample_post/">&lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
+  &lt;header&gt;
+    &lt;h3&gt;Overview&lt;/h3&gt;
+  &lt;/header&gt;
+&lt;div id=&quot;drawer&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#html-elements&quot; id=&quot;markdown-toc-html-elements&quot;&gt;HTML Elements&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#heading-1&quot; id=&quot;markdown-toc-heading-1&quot;&gt;Heading 1&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#heading-2&quot; id=&quot;markdown-toc-heading-2&quot;&gt;Heading 2&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#heading-3&quot; id=&quot;markdown-toc-heading-3&quot;&gt;Heading 3&lt;/a&gt;            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#heading-4&quot; id=&quot;markdown-toc-heading-4&quot;&gt;Heading 4&lt;/a&gt;                &lt;ul&gt;
+                  &lt;li&gt;&lt;a href=&quot;#heading-5&quot; id=&quot;markdown-toc-heading-5&quot;&gt;Heading 5&lt;/a&gt;                    &lt;ul&gt;
+                      &lt;li&gt;&lt;a href=&quot;#heading-6&quot; id=&quot;markdown-toc-heading-6&quot;&gt;Heading 6&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                  &lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#body-text&quot; id=&quot;markdown-toc-body-text&quot;&gt;Body text&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#blockquotes&quot; id=&quot;markdown-toc-blockquotes&quot;&gt;Blockquotes&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#list-types&quot; id=&quot;markdown-toc-list-types&quot;&gt;List Types&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#ordered-lists&quot; id=&quot;markdown-toc-ordered-lists&quot;&gt;Ordered Lists&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#unordered-lists&quot; id=&quot;markdown-toc-unordered-lists&quot;&gt;Unordered Lists&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#tables&quot; id=&quot;markdown-toc-tables&quot;&gt;Tables&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#code-snippets&quot; id=&quot;markdown-toc-code-snippets&quot;&gt;Code Snippets&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#buttons&quot; id=&quot;markdown-toc-buttons&quot;&gt;Buttons&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#notices&quot; id=&quot;markdown-toc-notices&quot;&gt;Notices&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- /#table-of-contents --&gt;
+
+&lt;h2 id=&quot;html-elements&quot;&gt;HTML Elements&lt;/h2&gt;
+
+&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
+
+&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;
+
+&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt;
+
+&lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;/h3&gt;
+
+&lt;h4 id=&quot;heading-4&quot;&gt;Heading 4&lt;/h4&gt;
+
+&lt;h5 id=&quot;heading-5&quot;&gt;Heading 5&lt;/h5&gt;
+
+&lt;h6 id=&quot;heading-6&quot;&gt;Heading 6&lt;/h6&gt;
+
+&lt;h3 id=&quot;body-text&quot;&gt;Body text&lt;/h3&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. &lt;strong&gt;This is strong&lt;/strong&gt;. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
+
+&lt;p class=&quot;image-pull-right&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/3953273590_704e3899d5_m.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This is emphasized&lt;/em&gt;. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
+
+&lt;p&gt;HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.&lt;/p&gt;
+
+&lt;h3 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;list-types&quot;&gt;List Types&lt;/h2&gt;
+
+&lt;h3 id=&quot;ordered-lists&quot;&gt;Ordered Lists&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Item one
+    &lt;ol&gt;
+      &lt;li&gt;sub item one&lt;/li&gt;
+      &lt;li&gt;sub item two&lt;/li&gt;
+      &lt;li&gt;sub item three&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Item two&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;unordered-lists&quot;&gt;Unordered Lists&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Item one&lt;/li&gt;
+  &lt;li&gt;Item two&lt;/li&gt;
+  &lt;li&gt;Item three&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
+
+&lt;table rules=&quot;groups&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Header1&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Header2&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Header3&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Foot1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Foot2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Foot3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;code-snippets&quot;&gt;Code Snippets&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;buttons&quot;&gt;Buttons&lt;/h2&gt;
+
+&lt;p&gt;Make any link standout more when applying the &lt;code class=&quot;highlighter-rouge&quot;&gt;.btn&lt;/code&gt; class.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn-success&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Success Button&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;Primary Button&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-success&quot;&gt;Success Button&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-warning&quot;&gt;Warning Button&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-danger&quot;&gt;Danger Button&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-info&quot;&gt;Info Button&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;notices&quot;&gt;Notices&lt;/h2&gt;
+
+&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; You can also add notices by appending &lt;code class=&quot;highlighter-rouge&quot;&gt;{: .notice}&lt;/code&gt; to a paragraph.&lt;/p&gt;</content><author><name>Mubai Liu</name><email>ml4407@columbia.edu</email></author><category term="intro" /><category term="beginner" /><category term="jekyll" /><category term="tutorial" /><summary type="html">Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more.</summary></entry><entry><title type="html">US 2016 Election Analysis</title><link href="http://localhost:4000/Blog/Election/" rel="alternate" type="text/html" title="US 2016 Election Analysis" /><published>2018-06-11T00:00:00-04:00</published><updated>2018-06-11T00:00:00-04:00</updated><id>http://localhost:4000/Blog/Election</id><content type="html" xml:base="http://localhost:4000/Blog/Election/">&lt;h1 id=&quot;all-codes-in-github&quot;&gt;&lt;a href=&quot;https://github.com/Mubai-Liu/US-2016-Election&quot;&gt;All Codes in Github&lt;/a&gt;&lt;/h1&gt;
 &lt;h2 id=&quot;background-discussion&quot;&gt;Background Discussion&lt;/h2&gt;
 
 &lt;h3 id=&quot;q1-what-makes-predicting-voter-behavior-and-thus-election-forecasting-a-hard-problem&quot;&gt;Q1: What makes predicting voter behavior (and thus election forecasting) a hard problem?&lt;/h3&gt;
@@ -32,7 +192,7 @@ last second. We think that journalists’ action may also lead to some violation
   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;coord_fixed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1.3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;guides&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fill&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;FALSE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# color legend is unnecessary and takes too long&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/USelection/Country.png&quot; alt=&quot;Country Group By Color&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/Blog/images/USelection/Country.png&quot; alt=&quot;Country Group By Color&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;counties&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map_data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;county&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 
@@ -42,13 +202,13 @@ last second. We think that journalists’ action may also lead to some violation
   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;guides&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fill&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;FALSE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# color legend is unnecessary and takes too long&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/USelection/County.png&quot; alt=&quot;Country Group By Color&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/Blog/images/USelection/County.png&quot; alt=&quot;Country Group By Color&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;dimension-reduction&quot;&gt;Dimension Reduction&lt;/h2&gt;
 
 &lt;h2 id=&quot;classification&quot;&gt;Classification&lt;/h2&gt;
 
-&lt;h2 id=&quot;conclusion-and-future-thoughts&quot;&gt;Conclusion and Future Thoughts&lt;/h2&gt;</content><author><name>Mubai Liu</name><email>ml4407@columbia.edu</email></author><category term="data wrangling" /><category term="data visualization" /><category term="prediction" /><category term="R" /><summary type="html">data wrangling, data visualization, prediction, R</summary></entry><entry><title type="html">Data Wrangling Project</title><link href="http://localhost:4000/life/perceptron/" rel="alternate" type="text/html" title="Data Wrangling Project" /><published>2018-01-28T00:00:00-05:00</published><updated>2018-01-28T00:00:00-05:00</updated><id>http://localhost:4000/life/perceptron</id><content type="html" xml:base="http://localhost:4000/life/perceptron/">&lt;h1 id=&quot;h1-heading&quot;&gt;H1 Heading&lt;/h1&gt;
+&lt;h2 id=&quot;conclusion-and-future-thoughts&quot;&gt;Conclusion and Future Thoughts&lt;/h2&gt;</content><author><name>Mubai Liu</name><email>ml4407@columbia.edu</email></author><category term="data wrangling" /><category term="data visualization" /><category term="prediction" /><category term="R" /><summary type="html">data wrangling, data visualization, prediction, R</summary></entry><entry><title type="html">Data Wrangling Project</title><link href="http://localhost:4000/Blog/perceptron/" rel="alternate" type="text/html" title="Data Wrangling Project" /><published>2018-01-28T00:00:00-05:00</published><updated>2018-01-28T00:00:00-05:00</updated><id>http://localhost:4000/Blog/perceptron</id><content type="html" xml:base="http://localhost:4000/Blog/perceptron/">&lt;h1 id=&quot;h1-heading&quot;&gt;H1 Heading&lt;/h1&gt;
 
 &lt;h2 id=&quot;h2-heading&quot;&gt;H2 Heading&lt;/h2&gt;
 
@@ -93,10 +253,10 @@ last second. We think that journalists’ action may also lead to some violation
 &lt;p&gt;Here’s some inline code &lt;code class=&quot;highlighter-rouge&quot;&gt;x+y&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Here’s an image:
-&lt;img src=&quot;http://localhost:4000/images/perceptron/linsep.jpg&quot; alt=&quot;linearly separable data&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://localhost:4000/Blog/images/perceptron/linsep.jpg&quot; alt=&quot;linearly separable data&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Here’s another image using Kramdown:
-&lt;img src=&quot;http://localhost:4000/images/perceptron/linsep.jpg&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://localhost:4000/Blog/images/perceptron/linsep.jpg&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Here’s some math:&lt;/p&gt;
 
