@@ -1,10 +1,8 @@
 ---
 title: Life
-layout: single
+layout: category
 permalink: /life/
 taxonomy: life
 ---
 
 Non-technical posts.
-
-About my life

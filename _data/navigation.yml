@@ -1,17 +1,16 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
-  - title: "Projects"
-    url: /data-wrangling/
-  - title: "Tutorials"
-    url: /tutorials/
+  #- title: "Home"
+  #  url: https://mariomeissner.github.io/
+
   - title: "Explained"
     url: /explained/
+
   - title: "Life"
     url: /life/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+
+  - title: "About"
+    url: /about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.9.0 by Michael Rose
+  Minimal Mistakes Jekyll Theme 4.12.0 by Michael Rose
   Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
@@ -18,14 +18,14 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Mubai Liu's Blog">
 <meta property="og:title" content="Data Wrangling Project">
-<meta property="og:url" content="http://localhost:4000/Blog/perceptron/">
+<meta property="og:url" content="http://localhost:4000/perceptron/">
 
 
   <meta property="og:description" content="Data Wrangling, Data Science, Messy Data">
 
 
 
-  <meta property="og:image" content="http://localhost:4000/Blog/images/perceptron/percept.jpg">
+  <meta property="og:image" content="http://localhost:4000/images/perceptron/percept.jpg">
 
 
 
@@ -42,7 +42,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/Blog/perceptron/">
+<link rel="canonical" href="http://localhost:4000/perceptron/">
 
 
 
@@ -55,7 +55,7 @@
       "@context": "http://schema.org",
       "@type": "Person",
       "name": "Mubai Liu",
-      "url": "http://localhost:4000/Blog",
+      "url": "http://localhost:4000",
       "sameAs": null
     }
   </script>
@@ -69,7 +69,7 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="http://localhost:4000/Blog/feed.xml" type="application/atom+xml" rel="alternate" title="Mubai Liu's Blog Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Mubai Liu's Blog Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -81,7 +81,13 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://localhost:4000/Blog/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!-- Add mathjax support -->
+<!-- <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" ></script> -->
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 <!--[if lte IE 9]>
   <style>
@@ -101,9 +107,10 @@
 
     <!-- start custom head snippets -->
 
-<!-- insert favicons. use http://realfavicongenerator.net/ -->
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <!-- end custom head snippets -->
+
   </head>
 
   <body class="layout--single">
@@ -116,35 +123,31 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="http://localhost:4000/Blog/">Mubai Liu's Blog</a>
+        <a class="site-title" href="/">Mubai Liu's Blog</a>
         <ul class="visible-links">
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/Blog/about/" >About</a>
+              <a href="http://localhost:4000/explained/" >Explained</a>
             </li>
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/Blog/data-wrangling/" >Projects</a>
+              <a href="http://localhost:4000/life/" >Life</a>
             </li>
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/Blog/tutorials/" >Tutorials</a>
-            </li>
-          
-            
-            <li class="masthead__menu-item">
-              <a href="http://localhost:4000/Blog/explained/" >Explained</a>
-            </li>
-          
-            
-            <li class="masthead__menu-item">
-              <a href="http://localhost:4000/Blog/life/" >Life</a>
+              <a href="http://localhost:4000/about/" >About</a>
             </li>
           
         </ul>
+        
+        <button class="search__toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle Menu</span>
@@ -174,7 +177,7 @@
   style=" "
 >
   
-    <img src="http://localhost:4000/Blog/images/perceptron/percept.jpg" alt="Data Wrangling Project" class="page__hero-image">
+    <img src="/images/perceptron/percept.jpg" alt="Data Wrangling Project" class="page__hero-image">
   
   
 </div>
@@ -196,7 +199,7 @@
       
 
       
-        <img src="http://localhost:4000/Blog/images/bio-pic-2.jpg" alt="Mubai Liu" itemprop="image">
+        <img src="/images/bio-pic-2.jpg" alt="Mubai Liu" itemprop="image">
       
     </div>
   
@@ -320,7 +323,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Data Wrangling Project
+          <h1 id="page-title" class="page__title" itemprop="headline">Data Wrangling Project
 </h1>
           
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
@@ -336,7 +339,7 @@
 
       <section class="page__content" itemprop="text">
         
-          <aside class="sidebar__right">
+          <aside class="sidebar__right ">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-cog"></i> Table of Contents</h4></header>
               <ul class="toc__menu">
@@ -391,13 +394,13 @@
 </span><span class="n">head</span><span class="p">(</span><span class="n">df</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
-<p>Here’s some inline code <code class="highlighter-rouge">x+y</code>.</p>
+<p>Here’s some inline code <code class="language-plaintext highlighter-rouge">x+y</code>.</p>
 
 <p>Here’s an image:
-<img src="http://localhost:4000/Blog/images/perceptron/linsep.jpg" alt="linearly separable data" /></p>
+<img src="http://localhost:4000/images/perceptron/linsep.jpg" alt="linearly separable data" /></p>
 
 <p>Here’s another image using Kramdown:
-<img src="http://localhost:4000/Blog/images/perceptron/linsep.jpg" alt="alt" /></p>
+<img src="http://localhost:4000/images/perceptron/linsep.jpg" alt="alt" /></p>
 
 <p>Here’s some math:</p>
 
@@ -424,15 +427,15 @@
     
       
       
-      <a href="http://localhost:4000/Blog/tags/#data-science" class="page__taxonomy-item" rel="tag">data science</a><span class="sep">, </span>
+      <a href="/tags/#data-science" class="page__taxonomy-item" rel="tag">data science</a><span class="sep">, </span>
     
       
       
-      <a href="http://localhost:4000/Blog/tags/#data-wrangling" class="page__taxonomy-item" rel="tag">data wrangling</a><span class="sep">, </span>
+      <a href="/tags/#data-wrangling" class="page__taxonomy-item" rel="tag">data wrangling</a><span class="sep">, </span>
     
       
       
-      <a href="http://localhost:4000/Blog/tags/#messy-data" class="page__taxonomy-item" rel="tag">messy data</a>
+      <a href="/tags/#messy-data" class="page__taxonomy-item" rel="tag">messy data</a>
     
     </span>
   </p>
@@ -453,7 +456,7 @@
     
       
       
-      <a href="http://localhost:4000/Blog/categories/#life" class="page__taxonomy-item" rel="tag">life</a>
+      <a href="/categories/#explained" class="page__taxonomy-item" rel="tag">explained</a>
     
     </span>
   </p>
@@ -466,16 +469,14 @@
 
       <section class="page__share">
   
-    <h4 class="page__share-title">Share on</h4>
-  
 
-  <a href="https://twitter.com/intent/tweet?text=Data+Wrangling+Project%20http%3A%2F%2Flocalhost%3A4000%2FBlog%2Fperceptron%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Data+Wrangling+Project%20http%3A%2F%2Flocalhost%3A4000%2Fperceptron%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FBlog%2Fperceptron%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fperceptron%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://plus.google.com/share?url=http%3A%2F%2Flocalhost%3A4000%2FBlog%2Fperceptron%2F" class="btn btn--google-plus" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Google Plus"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+  <a href="https://plus.google.com/share?url=http%3A%2F%2Flocalhost%3A4000%2Fperceptron%2F" class="btn btn--google-plus" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Google Plus"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FBlog%2Fperceptron%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fperceptron%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
@@ -485,7 +486,7 @@
       <a href="#" class="pagination--pager disabled">Previous</a>
     
     
-      <a href="http://localhost:4000/Blog/first-post/" class="pagination--pager" title="I’m starting a blog!
+      <a href="/Election/" class="pagination--pager" title="US 2016 Election Analysis
 ">Next</a>
     
   </nav>
@@ -510,34 +511,7 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/Blog/Sample_post/" rel="permalink">Sample Post
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  1 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">Just about everything you’ll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more.
-</p>
-  </article>
-</div>
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="http://localhost:4000/Blog/Election/" rel="permalink">US 2016 Election Analysis
+        <a href="/Election/" rel="permalink">US 2016 Election Analysis
 </a>
       
     </h2>
@@ -555,40 +529,18 @@
   </article>
 </div>
         
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="http://localhost:4000/Blog/first-post/" rel="permalink">I’m starting a blog!
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  2 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">So, I decided to start a blog. I always wanted to maintain one but the work that it would involve, together with the apparent low reward, always kept me away...</p>
-  </article>
-</div>
-        
       </div>
     </div>
   
   
 </div>
-
     </div>
 
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><input type="text" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+    <div id="results" class="results"></div></div>
+      </div>
     
 
     <div class="page__footer">
@@ -599,8 +551,6 @@
         <div class="page__footer-follow">
   <ul class="social-icons">
     
-      <li><strong>Follow:</strong></li>
-    
     
     
     
@@ -608,7 +558,7 @@
     
     
     
-    <li><a href="http://localhost:4000/Blog/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
@@ -618,19 +568,17 @@
     </div>
 
     
-  <script src="http://localhost:4000/Blog/assets/js/main.min.js"></script>
-  <script src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
 
 
 
 
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
 
 
-
-
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
 
 
 
