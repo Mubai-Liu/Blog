@@ -6,7 +6,7 @@ header:
   image: "/images/perceptron/percept.jpg"
 excerpt: "Data Wrangling, Data Science, Messy Data"
 mathjax: "true"
-categories: explained
+categories: Sample
 ---
 
 # H1 Heading

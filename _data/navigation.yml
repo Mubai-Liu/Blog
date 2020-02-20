@@ -1,18 +1,18 @@
 # main links
 main:
-  #- title: "Home"
-  #  url: https://mariomeissner.github.io/
-
-  - title: "Explained"
-    url: /explained/
+  - title: "Home"
+    url: https://mubai-liu.github.io/Blog
 
   - title: "Life"
     url: /life/
+    
+  - title: "Projects"
+    url: /project/
 
   - title: "About"
     url: /about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Sample Posts"
+    url: /sample/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
