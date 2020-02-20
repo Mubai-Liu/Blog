@@ -5,7 +5,7 @@ var store = [{
         "url": "http://localhost:4000/life/perceptron/",
         "teaser":null},{
         "title": "US 2016 Election Analysis",
-        "excerpt":"All Codes in GithubBackground DiscussionQ1: What makes predicting voter behavior (and thus election forecasting) a hard problem?Many reasons may lead to the difficulty of predicting the voter behavior and election forecasting. The first one may be the number of voters for the2016’s polls. While we expect that the equal number...","categories": [],
+        "excerpt":"All Codes in GithubBackground DiscussionQ1: What makes predicting voter behavior (and thus election forecasting) a hard problem?Many reasons may lead to the difficulty of predicting the voter behavior and election forecasting. The first one may be the number of voters for the2016’s polls. While we expect that the equal number...","categories": ["tutorial"],
         "tags": ["data wrangling","data visualization","prediction","R"],
-        "url": "http://localhost:4000/Election/",
+        "url": "http://localhost:4000/tutorial/Election/",
         "teaser":null}]
