@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: categories
 permalink: /mylife/
 title: "Life"
 author_profile: true
