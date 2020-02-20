@@ -4,6 +4,11 @@ var store = [{
         "tags": ["data wrangling","data science","messy data"],
         "url": "http://localhost:4000/Blog/perceptron/",
         "teaser":null},{
+        "title": "I'm starting a blog!",
+        "excerpt":"So, I decided to start a blog. I always wanted to maintain one but the work that it would involve, together with the apparent low reward, always kept me away from doing so.There are many reasons that could motivate someone to start a blog. Here I want to list a...","categories": ["life"],
+        "tags": [],
+        "url": "http://localhost:4000/Blog/first-post/",
+        "teaser":null},{
         "title": "US 2016 Election Analysis",
         "excerpt":"All Codes in GithubBackground DiscussionQ1: What makes predicting voter behavior (and thus election forecasting) a hard problem?Many reasons may lead to the difficulty of predicting the voter behavior and election forecasting. The first one may be the number of voters for the2016’s polls. While we expect that the equal number...","categories": ["tutorial"],
         "tags": ["data wrangling","data visualization","prediction","R"],

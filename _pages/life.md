@@ -1,11 +1,10 @@
 ---
-layout: posts
-permalink: /mylife/
-title: "Life"
-author_profile: true
-header:
-  image: "/images/fort point.png"
-taxonomy: "tutorial"
+title: Life
+layout: single
+permalink: /life/
+taxonomy: life
 ---
+
+Non-technical posts.
 
 About my life
