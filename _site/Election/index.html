@@ -1,0 +1,540 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.9.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>US 2016 Election Analysis - Mubai Liu</title>
+<meta name="description" content="data wrangling, data visualization, prediction, R">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Mubai Liu">
+<meta property="og:title" content="US 2016 Election Analysis">
+<meta property="og:url" content="http://localhost:4000/Election/">
+
+
+  <meta property="og:description" content="data wrangling, data visualization, prediction, R">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2018-06-11T00:00:00-04:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/Election/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Mubai Liu",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Mubai Liu Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="http://localhost:4000/">Mubai Liu</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/about/" >About</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/data-wrangling/" >Projects</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/mylife/" >Life</a>
+            </li>
+          
+        </ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="http://localhost:4000/images/bio-pic-2.jpg" alt="Mubai Liu" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Mubai Liu</h3>
+    
+    
+      <p class="author__bio" itemprop="description">
+        MA Student at Columbia
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">New York, NY</span>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:ml4407@columbia.edu">
+            <meta itemprop="email" content="ml4407@columbia.edu" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/mubailiu" itemprop="sameAs">
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.linkedin.com/in/mubai-liu-000" itemprop="sameAs">
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/Mubai-Liu" itemprop="sameAs">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="US 2016 Election Analysis">
+    <meta itemprop="description" content="data wrangling, data visualization, prediction, R">
+    <meta itemprop="datePublished" content="June 11, 2018">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">US 2016 Election Analysis
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-cog"></i> Table of Contents</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#background-discussion">Background Discussion</a>
+    <ul>
+      <li><a href="#q1-what-makes-predicting-voter-behavior-and-thus-election-forecasting-a-hard-problem">Q1: What makes predicting voter behavior (and thus election forecasting) a hard problem?</a></li>
+      <li><a href="#q2-although-nate-silver-predicted-that-clinton-would-win-2016-he-gave-trump-higher-odds-than-most-what-is-unique-about-nate-silvers-methodology">Q2: Although Nate Silver predicted that Clinton would win 2016, he gave Trump higher odds than most. What is unique about Nate Silver’s methodology?</a></li>
+      <li><a href="#q3-discuss-why-analysts-believe-predictions-were-less-accurate-in-2016-can-anything-be-done-to-make-future-predictions-better-what-are-some-challenges-for-predicting-future-elections-how-do-you-think-journalists-communicate-results-of-election-forecasting-models-to-a-general-audience">Q3: Discuss why analysts believe predictions were less accurate in 2016. Can anything be done to make future predictions better? What are some challenges for predicting future elections? How do you think journalists communicate results of election forecasting models to a general audience?</a></li>
+    </ul>
+  </li>
+  <li><a href="#data-wrangling">Data Wrangling</a></li>
+  <li><a href="#visualization">Visualization</a></li>
+  <li><a href="#dimension-reduction">Dimension Reduction</a></li>
+  <li><a href="#classification">Classification</a></li>
+  <li><a href="#conclusion-and-future-thoughts">Conclusion and Future Thoughts</a></li>
+</ul>
+            </nav>
+          </aside>
+        
+        <h1 id="all-codes-in-github"><a href="https://github.com/Mubai-Liu/US-2016-Election">All Codes in Github</a></h1>
+<h2 id="background-discussion">Background Discussion</h2>
+
+<h3 id="q1-what-makes-predicting-voter-behavior-and-thus-election-forecasting-a-hard-problem">Q1: What makes predicting voter behavior (and thus election forecasting) a hard problem?</h3>
+
+<p>Many reasons may lead to the difficulty of predicting the voter behavior and election forecasting. The first one may be the number of voters for the
+2016’s polls. While we expect that the equal number of Democrats and Republicians, it turned out that the Republican have much more voters than Democratic voters. Secondly, voters may change their decision. Several causes are whether or not the voter is a minority, their income earned, and the gender of those voters. We should analyze all those factors that may have influence on individual’s vote. What’s more, it turns out that
+many voters would change their vote in the week that leads up to voting according to previous elections. Last but not least, unpredictable future events that will happen. The society may change their attitude due to the news they’ve found on the TV or website, which is not predcitable.</p>
+
+<h3 id="q2-although-nate-silver-predicted-that-clinton-would-win-2016-he-gave-trump-higher-odds-than-most-what-is-unique-about-nate-silvers-methodology">Q2: Although Nate Silver predicted that Clinton would win 2016, he gave Trump higher odds than most. What is unique about Nate Silver’s methodology?</h3>
+
+<p>Compared to the usual approach which will take the maximum probabilty as the outcome, Nate Silver’s approach takes a full range of possibilities
+instead of just taking one maximum. For example, he calculated the possibilites of different dates of support and after calculation, he utilized the whole set of possibilities to model the shift in the polling numbers and thus get the desire result. He also looked at both the nation-level and test level votes. The whole idea of his approach is based on the Bayes’ Theorem.</p>
+
+<h3 id="q3-discuss-why-analysts-believe-predictions-were-less-accurate-in-2016-can-anything-be-done-to-make-future-predictions-better-what-are-some-challenges-for-predicting-future-elections-how-do-you-think-journalists-communicate-results-of-election-forecasting-models-to-a-general-audience">Q3: Discuss why analysts believe predictions were less accurate in 2016. Can anything be done to make future predictions better? What are some challenges for predicting future elections? How do you think journalists communicate results of election forecasting models to a general audience?</h3>
+
+<p>In the 2016, as we mentioned in the first question, the media plays a huge role for deciding which side of voters will be, the media overstated
+Clinton’s lead, especially in the Costal state. The news will lead to many voters choose Clintion, and feel uncomfortable with Trump. It is the same
+situation for the prediction of voting. So if we want to make the future prediction more precise, we might want to find out the potential news in the
+polictician. People should able to balance with the media’s instigate and their own thought. The challenges are clear because as people growing,
+their experience and knowledge is also growing, so next time maybe they will stick with their choice all the time instead of changing their decision
+last second. We think that journalists’ action may also lead to some violations to the model that we are trying to predict. It could cause some people to change their mind once again.</p>
+
+<h2 id="data-wrangling">Data Wrangling</h2>
+
+<h2 id="visualization">Visualization</h2>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">states</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">map_data</span><span class="p">(</span><span class="s2">"state"</span><span class="p">)</span><span class="w">
+
+</span><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">states</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> 
+  </span><span class="n">geom_polygon</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">long</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lat</span><span class="p">,</span><span class="w"> </span><span class="n">fill</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">region</span><span class="p">,</span><span class="w"> </span><span class="n">group</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">group</span><span class="p">),</span><span class="w"> </span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"white"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> 
+  </span><span class="n">coord_fixed</span><span class="p">(</span><span class="m">1.3</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">guides</span><span class="p">(</span><span class="n">fill</span><span class="o">=</span><span class="kc">FALSE</span><span class="p">)</span><span class="w">  </span><span class="c1"># color legend is unnecessary and takes too long</span><span class="w">
+</span></code></pre></div></div>
+<p><img src="http://localhost:4000/images/USelection/Country.png" alt="Country Group By Color" /></p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">counties</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">map_data</span><span class="p">(</span><span class="s2">"county"</span><span class="p">)</span><span class="w">
+
+</span><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">counties</span><span class="p">)</span><span class="o">+</span><span class="w">
+  </span><span class="n">geom_polygon</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">long</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lat</span><span class="p">,</span><span class="w"> </span><span class="n">fill</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">region</span><span class="p">,</span><span class="w"> </span><span class="n">group</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">group</span><span class="p">),</span><span class="w"> </span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"white"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> 
+  </span><span class="n">coord_fixed</span><span class="p">(</span><span class="m">1.3</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">guides</span><span class="p">(</span><span class="n">fill</span><span class="o">=</span><span class="kc">FALSE</span><span class="p">)</span><span class="w">  </span><span class="c1"># color legend is unnecessary and takes too long</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="http://localhost:4000/images/USelection/County.png" alt="Country Group By Color" /></p>
+
+<h2 id="dimension-reduction">Dimension Reduction</h2>
+
+<h2 id="classification">Classification</h2>
+
+<h2 id="conclusion-and-future-thoughts">Conclusion and Future Thoughts</h2>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="http://localhost:4000/tags/#data-visualization" class="page__taxonomy-item" rel="tag">data visualization</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#data-wrangling" class="page__taxonomy-item" rel="tag">data wrangling</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#prediction" class="page__taxonomy-item" rel="tag">prediction</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#r" class="page__taxonomy-item" rel="tag">R</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2018-06-11T00:00:00-04:00">June 11, 2018</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=US+2016+Election+Analysis%20http%3A%2F%2Flocalhost%3A4000%2FElection%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FElection%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://plus.google.com/share?url=http%3A%2F%2Flocalhost%3A4000%2FElection%2F" class="btn btn--google-plus" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Google Plus"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FElection%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="http://localhost:4000/life/perceptron/" class="pagination--pager" title="Data Wrangling Project
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/life/perceptron/" rel="permalink">Data Wrangling Project
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Data Wrangling, Data Science, Messy Data
+</p>
+  </article>
+</div>
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+      <li><a href="https://github.com/Mubai-Liu"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Mubai Liu. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+
+
+
+
+
+
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+
+  </body>
+</html>
