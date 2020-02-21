@@ -3,6 +3,7 @@ title: "LG Gram Youtube Video"
 date: 2020-02-20
 tags: [Youtube, laptop, example]
 categories: life
+toc: false
 ---
 
 Just one example post about a Youtuber Dave Lee's video.
