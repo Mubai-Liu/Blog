@@ -1,7 +1,7 @@
 ---
 title: "Post: Gallery"
 categories:
-  - Post Formats
+  - Sample
 tags:
   - gallery
   - Post Formats
