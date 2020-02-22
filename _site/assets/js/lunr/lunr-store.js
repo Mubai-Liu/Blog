@@ -20,7 +20,7 @@ var store = [{
         "url": "http://localhost:4000/Blog/Autochess/",
         "teaser":null},{
         "title": "LG Gram Youtube Video",
-        "excerpt":"Just one example post about a Youtuber Dave Lee’s video. ","categories": ["life"],
+        "excerpt":"Just one example post about a Youtuber Dave Lee’s video. ","categories": ["Sample"],
         "tags": ["Youtube","laptop","example"],
         "url": "http://localhost:4000/Blog/Lightest-laptop/",
         "teaser":null}]

@@ -2,7 +2,7 @@
 title: "LG Gram Youtube Video"
 date: 2020-02-20
 tags: [Youtube, laptop, example]
-categories: life
+categories: Sample
 toc: false
 ---
 
