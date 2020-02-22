@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-21T09:59:54-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mubai Liu’s Blog</title><subtitle>Data Science Portfolio</subtitle><author><name>Mubai Liu</name><email>ml4407@columbia.edu</email></author><entry><title type="html">LG Gram Youtube Video</title><link href="http://localhost:4000/Lightest-laptop/" rel="alternate" type="text/html" title="LG Gram Youtube Video" /><published>2020-02-20T00:00:00-05:00</published><updated>2020-02-20T00:00:00-05:00</updated><id>http://localhost:4000/Lightest-laptop</id><content type="html" xml:base="http://localhost:4000/Lightest-laptop/">&lt;p&gt;Just one example post about a Youtuber Dave Lee’s video.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Blog/" rel="alternate" type="text/html" /><updated>2020-02-21T23:38:50-05:00</updated><id>http://localhost:4000/Blog/feed.xml</id><title type="html">Mubai Liu’s Blog</title><subtitle>Data Science Portfolio</subtitle><author><name>Mubai Liu</name><email>ml4407@columbia.edu</email></author><entry><title type="html">LG Gram Youtube Video</title><link href="http://localhost:4000/Blog/Lightest-laptop/" rel="alternate" type="text/html" title="LG Gram Youtube Video" /><published>2020-02-20T00:00:00-05:00</published><updated>2020-02-20T00:00:00-05:00</updated><id>http://localhost:4000/Blog/Lightest-laptop</id><content type="html" xml:base="http://localhost:4000/Blog/Lightest-laptop/">&lt;p&gt;Just one example post about a Youtuber Dave Lee’s video.&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/v5PEXWv--G8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Mubai Liu</name><email>ml4407@columbia.edu</email></author><category term="Youtube" /><category term="laptop" /><category term="example" /><summary type="html">Just one example post about a Youtuber Dave Lee’s video.</summary></entry><entry><title type="html">Auto Chess in Dota 2</title><link href="http://localhost:4000/Autochess/" rel="alternate" type="text/html" title="Auto Chess in Dota 2" /><published>2020-02-20T00:00:00-05:00</published><updated>2020-02-20T00:00:00-05:00</updated><id>http://localhost:4000/Autochess</id><content type="html" xml:base="http://localhost:4000/Autochess/">&lt;p&gt;This is a video uploaded by myself that playing Auto Chess a year ago. It is a really fun game to play and require some unique strategies in order to win against 7 other players. Enjoy the video.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/v5PEXWv--G8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Mubai Liu</name><email>ml4407@columbia.edu</email></author><category term="Youtube" /><category term="laptop" /><category term="example" /><summary type="html">Just one example post about a Youtuber Dave Lee’s video.</summary></entry><entry><title type="html">Auto Chess in Dota 2</title><link href="http://localhost:4000/Blog/Autochess/" rel="alternate" type="text/html" title="Auto Chess in Dota 2" /><published>2020-02-20T00:00:00-05:00</published><updated>2020-02-20T00:00:00-05:00</updated><id>http://localhost:4000/Blog/Autochess</id><content type="html" xml:base="http://localhost:4000/Blog/Autochess/">&lt;p&gt;This is a video uploaded by myself that playing Auto Chess a year ago. It is a really fun game to play and require some unique strategies in order to win against 7 other players. Enjoy the video.&lt;/p&gt;
 
-&lt;iframe width=&quot;600&quot; height=&quot;400&quot; src=&quot;//player.bilibili.com/player.html?aid=43181959&amp;amp;cid=75707283&amp;amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;</content><author><name>Mubai Liu</name><email>ml4407@columbia.edu</email></author><category term="bilibili" /><category term="autochess" /><summary type="html">This is a video uploaded by myself that playing Auto Chess a year ago. It is a really fun game to play and require some unique strategies in order to win against 7 other players. Enjoy the video.</summary></entry><entry><title type="html">US 2016 Election Analysis</title><link href="http://localhost:4000/Election/" rel="alternate" type="text/html" title="US 2016 Election Analysis" /><published>2018-06-11T00:00:00-04:00</published><updated>2018-06-11T00:00:00-04:00</updated><id>http://localhost:4000/Election</id><content type="html" xml:base="http://localhost:4000/Election/">&lt;h1 id=&quot;all-codes-in-github&quot;&gt;&lt;a href=&quot;https://github.com/Mubai-Liu/US-2016-Election&quot;&gt;All Codes in Github&lt;/a&gt;&lt;/h1&gt;
+&lt;iframe width=&quot;600&quot; height=&quot;400&quot; src=&quot;//player.bilibili.com/player.html?aid=43181959&amp;amp;cid=75707283&amp;amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;</content><author><name>Mubai Liu</name><email>ml4407@columbia.edu</email></author><category term="bilibili" /><category term="autochess" /><summary type="html">This is a video uploaded by myself that playing Auto Chess a year ago. It is a really fun game to play and require some unique strategies in order to win against 7 other players. Enjoy the video.</summary></entry><entry><title type="html">US 2016 Election Analysis</title><link href="http://localhost:4000/Blog/Election/" rel="alternate" type="text/html" title="US 2016 Election Analysis" /><published>2018-06-11T00:00:00-04:00</published><updated>2018-06-11T00:00:00-04:00</updated><id>http://localhost:4000/Blog/Election</id><content type="html" xml:base="http://localhost:4000/Blog/Election/">&lt;h1 id=&quot;all-codes-in-github&quot;&gt;&lt;a href=&quot;https://github.com/Mubai-Liu/US-2016-Election&quot;&gt;All Codes in Github&lt;/a&gt;&lt;/h1&gt;
 &lt;h2 id=&quot;background-discussion&quot;&gt;Background Discussion&lt;/h2&gt;
 
 &lt;h3 id=&quot;q1-what-makes-predicting-voter-behavior-and-thus-election-forecasting-a-hard-problem&quot;&gt;Q1: What makes predicting voter behavior (and thus election forecasting) a hard problem?&lt;/h3&gt;
@@ -36,7 +36,7 @@ last second. We think that journalists’ action may also lead to some violation
   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;coord_fixed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1.3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;guides&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fill&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;FALSE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# color legend is unnecessary and takes too long&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/USelection/Country.png&quot; alt=&quot;Country Group By Color&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/Blog/images/USelection/Country.png&quot; alt=&quot;Country Group By Color&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;counties&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map_data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;county&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 
@@ -46,13 +46,13 @@ last second. We think that journalists’ action may also lead to some violation
   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;guides&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fill&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;FALSE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# color legend is unnecessary and takes too long&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/USelection/County.png&quot; alt=&quot;Country Group By Color&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/Blog/images/USelection/County.png&quot; alt=&quot;Country Group By Color&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;dimension-reduction&quot;&gt;Dimension Reduction&lt;/h2&gt;
 
 &lt;h2 id=&quot;classification&quot;&gt;Classification&lt;/h2&gt;
 
-&lt;h2 id=&quot;conclusion-and-future-thoughts&quot;&gt;Conclusion and Future Thoughts&lt;/h2&gt;</content><author><name>Mubai Liu</name><email>ml4407@columbia.edu</email></author><category term="data wrangling" /><category term="data visualization" /><category term="prediction" /><category term="R" /><summary type="html">data wrangling, data visualization, prediction, R</summary></entry><entry><title type="html">Data Wrangling Project</title><link href="http://localhost:4000/perceptron/" rel="alternate" type="text/html" title="Data Wrangling Project" /><published>2018-01-28T00:00:00-05:00</published><updated>2018-01-28T00:00:00-05:00</updated><id>http://localhost:4000/perceptron</id><content type="html" xml:base="http://localhost:4000/perceptron/">&lt;h1 id=&quot;h1-heading&quot;&gt;H1 Heading&lt;/h1&gt;
+&lt;h2 id=&quot;conclusion-and-future-thoughts&quot;&gt;Conclusion and Future Thoughts&lt;/h2&gt;</content><author><name>Mubai Liu</name><email>ml4407@columbia.edu</email></author><category term="data wrangling" /><category term="data visualization" /><category term="prediction" /><category term="R" /><summary type="html">data wrangling, data visualization, prediction, R</summary></entry><entry><title type="html">Example Project</title><link href="http://localhost:4000/Blog/perceptron/" rel="alternate" type="text/html" title="Example Project" /><published>2018-01-28T00:00:00-05:00</published><updated>2018-01-28T00:00:00-05:00</updated><id>http://localhost:4000/Blog/perceptron</id><content type="html" xml:base="http://localhost:4000/Blog/perceptron/">&lt;h1 id=&quot;h1-heading&quot;&gt;H1 Heading&lt;/h1&gt;
 
 &lt;h2 id=&quot;h2-heading&quot;&gt;H2 Heading&lt;/h2&gt;
 
@@ -97,16 +97,16 @@ last second. We think that journalists’ action may also lead to some violation
 &lt;p&gt;Here’s some inline code &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x+y&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Here’s an image:
-&lt;img src=&quot;http://localhost:4000/images/perceptron/linsep.jpg&quot; alt=&quot;linearly separable data&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://localhost:4000/Blog/images/perceptron/linsep.jpg&quot; alt=&quot;linearly separable data&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Here’s another image using Kramdown:
-&lt;img src=&quot;http://localhost:4000/images/perceptron/linsep.jpg&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://localhost:4000/Blog/images/perceptron/linsep.jpg&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Here’s some math:&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;z=x+y&lt;/script&gt;
 
-&lt;p&gt;You can also put it inline &lt;script type=&quot;math/tex&quot;&gt;z=x+y&lt;/script&gt;&lt;/p&gt;</content><author><name>Mubai Liu</name><email>ml4407@columbia.edu</email></author><category term="data wrangling" /><category term="data science" /><category term="messy data" /><summary type="html">Data Wrangling, Data Science, Messy Data</summary></entry><entry><title type="html">Post: Gallery</title><link href="http://localhost:4000/post-gallery/" rel="alternate" type="text/html" title="Post: Gallery" /><published>2010-09-09T00:00:00-04:00</published><updated>2010-09-09T00:00:00-04:00</updated><id>http://localhost:4000/post-gallery</id><content type="html" xml:base="http://localhost:4000/post-gallery/">&lt;p&gt;These are gallery tests for image wrapped in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;figure&amp;gt;&lt;/code&gt; elements.&lt;/p&gt;
+&lt;p&gt;You can also put it inline &lt;script type=&quot;math/tex&quot;&gt;z=x+y&lt;/script&gt;&lt;/p&gt;</content><author><name>Mubai Liu</name><email>ml4407@columbia.edu</email></author><category term="data wrangling" /><category term="data science" /><category term="messy data" /><summary type="html">Data Wrangling, Data Science, Messy Data</summary></entry><entry><title type="html">Post: Gallery</title><link href="http://localhost:4000/Blog/post-gallery/" rel="alternate" type="text/html" title="Post: Gallery" /><published>2010-09-09T00:00:00-04:00</published><updated>2010-09-09T00:00:00-04:00</updated><id>http://localhost:4000/Blog/post-gallery</id><content type="html" xml:base="http://localhost:4000/Blog/post-gallery/">&lt;p&gt;These are gallery tests for image wrapped in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;figure&amp;gt;&lt;/code&gt; elements.&lt;/p&gt;
 
 &lt;p&gt;To place a gallery add the necessary YAML Front Matter:&lt;/p&gt;
 
@@ -137,74 +137,74 @@ last second. We think that journalists’ action may also lead to some violation
 &lt;figure class=&quot;third &quot;&gt;
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 1 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 1&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 1 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 1&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 2 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 2&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 2 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 2&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 3 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 3&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 3 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 3&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 4 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 4&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 4 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 4&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 5 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 5&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 5 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 5&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 6 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 6&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 6 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 6&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 7 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 7&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 7 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 7&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 8 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 8&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 8 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 8&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 9 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 9&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 9 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 9&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 10 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 10&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 10 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 10&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 11 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 11&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 11 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 11&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 12 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 12&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 12 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 12&quot; /&gt;
       &lt;/a&gt;
     
   
@@ -266,11 +266,11 @@ last second. We think that journalists’ action may also lead to some violation
 &lt;figure class=&quot;half full&quot;&gt;
   
     
-      &lt;img src=&quot;/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 2&quot; /&gt;
+      &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 2&quot; /&gt;
     
   
     
-      &lt;img src=&quot;/assets/images/unsplash-gallery-image-4-th.jpg&quot; alt=&quot;placeholder image 4&quot; /&gt;
+      &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-4-th.jpg&quot; alt=&quot;placeholder image 4&quot; /&gt;
     
   
   
@@ -287,74 +287,74 @@ last second. We think that journalists’ action may also lead to some violation
 &lt;figure class=&quot;third &quot;&gt;
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 1 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 1&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 1 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 1&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 2 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 2&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 2 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 2&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 3 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 3&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 3 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 3&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 4 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 4&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 4 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 4&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 5 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 5&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 5 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 5&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 6 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 6&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 6 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 6&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 7 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 7&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 7 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 7&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 8 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 8&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 8 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 8&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 9 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 9&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 9 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 9&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 10 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 10&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 10 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 10&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 11 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 11&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 11 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 11&quot; /&gt;
       &lt;/a&gt;
     
   
     
-      &lt;a href=&quot;/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 12 title caption&quot;&gt;
-        &lt;img src=&quot;/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 12&quot; /&gt;
+      &lt;a href=&quot;/Blog/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 12 title caption&quot;&gt;
+        &lt;img src=&quot;/Blog/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 12&quot; /&gt;
       &lt;/a&gt;
     
   
