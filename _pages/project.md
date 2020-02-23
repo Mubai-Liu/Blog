@@ -5,4 +5,4 @@ permalink: /project/
 taxonomy: project
 ---
 
-My explained series tries to offer a simple and intuitive approach to understanding different concepts.
+This is the place I'm going to put some key points in my previous projects.
