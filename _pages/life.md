@@ -5,4 +5,4 @@ permalink: /life/
 taxonomy: life
 ---
 
-Something about me
+Something about my interests and thoughts
