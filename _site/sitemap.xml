@@ -5,7 +5,7 @@
 <lastmod>2010-09-09T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/Blog/perceptron/</loc>
+<loc>http://localhost:4000/Blog/Sample/</loc>
 <lastmod>2018-01-28T00:00:00-05:00</lastmod>
 </url>
 <url>
@@ -19,6 +19,10 @@
 <url>
 <loc>http://localhost:4000/Blog/Lightest-laptop/</loc>
 <lastmod>2020-02-20T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/Blog/Firstpost/</loc>
+<lastmod>2020-02-24T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/Blog/_pages/404/</loc>
@@ -39,9 +43,9 @@
 <loc>http://localhost:4000/Blog/project/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/Blog/tutorials/</loc>
+<loc>http://localhost:4000/Blog/setup_instructions/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/Blog/setup_instructions/</loc>
+<loc>http://localhost:4000/Blog/page2/</loc>
 </url>
 </urlset>

@@ -7,10 +7,10 @@ var store = [{
         "title": "Example Project",
         "excerpt":"H1 Heading H2 Heading H3 Heading Here’s some basic text. And here’s some italics Here’s some bold text. What about a link? Here’s a bulleted list: First item Second item Third itemHere’s a numbered list: First Second ThirdPython code block: import numpy as np def test_function(x, y): z = np.sum(x,y)...","categories": ["Sample"],
         "tags": ["data wrangling","data science","messy data"],
-        "url": "http://localhost:4000/Blog/perceptron/",
+        "url": "http://localhost:4000/Blog/Sample/",
         "teaser":null},{
         "title": "US 2016 Election Analysis",
-        "excerpt":"All Codes in Github Background Discussion Q1: What makes predicting voter behavior (and thus election forecasting) a hard problem? Many reasons may lead to the difficulty of predicting the voter behavior and election forecasting. The first one may be the number of voters for the2016’s polls. While we expect that...","categories": ["project"],
+        "excerpt":"Background Discussion Q1: What makes predicting voter behavior (and thus election forecasting) a hard problem? Many reasons may lead to the difficulty of predicting the voter behavior and election forecasting. The first one may be the number of voters for the2016’s polls. While we expect that the equal number of...","categories": ["project"],
         "tags": ["data wrangling","data visualization","prediction","R"],
         "url": "http://localhost:4000/Blog/Election/",
         "teaser":null},{
@@ -23,4 +23,9 @@ var store = [{
         "excerpt":"Just one example post about a Youtuber Dave Lee’s video. ","categories": ["Sample"],
         "tags": ["Youtube","laptop","example"],
         "url": "http://localhost:4000/Blog/Lightest-laptop/",
+        "teaser":null},{
+        "title": "I'm starting to build a blog!",
+        "excerpt":"I’ve never thought I would have such huge amount of interests to start a blog, but here I am. It is apparently a low reward, high cost job to do, and kept me away from doing so since the day I was born. I also tried to building the website...","categories": ["life"],
+        "tags": ["Personal"],
+        "url": "http://localhost:4000/Blog/Firstpost/",
         "teaser":null}]
