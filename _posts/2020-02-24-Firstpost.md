@@ -1,10 +1,10 @@
 ---
-layout: posts
 title: "I'm starting to build a blog!"
 data: 2020-02-24
 tags: [Personal]
 categories: life
 toc: true
+comment: true
 ---
 
 I've never thought I would have such huge amount of interests to start a blog, but here I am. It is apparently a low reward, high cost job to do, and kept me away from doing so since the day I was born. 
