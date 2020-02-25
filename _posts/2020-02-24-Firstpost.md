@@ -1,4 +1,5 @@
 ---
+layout: posts
 title: "I'm starting to build a blog!"
 data: 2020-02-24
 tags: [Personal]
