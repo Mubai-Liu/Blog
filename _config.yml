@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Mubai Liu's Blog"
 title_separator          : "-"
 name                     : "Mubai Liu"
-description              : "Data Science Portfolio"
+description              : "Keep going and going and going..."
 url                      : "https://mubai-liu.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/Blog" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/Mubai-Liu/Blog" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -93,7 +93,7 @@ analytics:
 # Site Author
 author:
   name             : "Mubai Liu"
-  avatar           : "/images/bio-pic-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/selfie.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "MA Student at Columbia"
   location         : "New York, NY"
   email            : "ml4407@columbia.edu"
