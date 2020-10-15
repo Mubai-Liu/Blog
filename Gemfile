@@ -12,7 +12,7 @@ gem "jekyll", "~> 4.1.1"
 # gem "minima", "~> 2.5"
 gem "minimal-mistakes-jekyll"
 
-
+gem "jekyll-include-cache"
 
 gem 'jekyll-paginate-category'
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
