@@ -27,8 +27,9 @@ title: Mubai Liu's Blog
 email: ml4407@columbia.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Data Science Profolio; Mubai Liu; Blog.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url                      : "https://mubai-liu.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : "Mubai-Liu/Blog" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -251,7 +252,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
     # _pages
