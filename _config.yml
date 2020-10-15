@@ -34,8 +34,7 @@ github_username:  jekyll
 
 # Build settings
 theme: minimal-mistakes-jekyll
-plugins:
-  - jekyll-feed
+
 words_per_minute         : 150
 comments:
   provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
