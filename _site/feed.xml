@@ -1,20 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-15T20:22:37-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mubai Liu’s Blog</title><subtitle>Data Science Profolio; Mubai Liu; Blog.</subtitle><author><name>Mubai Liu</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/10/14/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-10-14T15:15:51-04:00</published><updated>2020-10-14T15:15:51-04:00</updated><id>http://localhost:4000/jekyll/update/2020/10/14/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/10/14/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-15T21:38:40-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mubai Liu’s Blog</title><subtitle>Data Science Profolio; Mubai Liu; Blog.</subtitle><author><name>Mubai Liu</name></author><entry><title type="html">How Does Evolving Education Play a Part in the Election?</title><link href="http://localhost:4000/project/2020/09/20/Education.html" rel="alternate" type="text/html" title="How Does Evolving Education Play a Part in the Election?" /><published>2020-09-20T00:00:00-04:00</published><updated>2020-09-20T00:00:00-04:00</updated><id>http://localhost:4000/project/2020/09/20/Education</id><content type="html" xml:base="http://localhost:4000/project/2020/09/20/Education.html">&lt;h2 id=&quot;background--introduction&quot;&gt;Background &amp;amp; Introduction&lt;/h2&gt;
 
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+&lt;p&gt;The election in America has been through almost a century, over such a long period, things changed dramatically. Take education for example, back in the year of 1948, there’s not much people who had a college degree and the system of education was not even comparable to today’s system. To partially prove my point of having a huge difference in education over such a long period, here is what I’ve found using the survey data.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/2020EduEle/edutime.png&quot; alt=&quot;Education change by 4 years&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Here we can see that the Red curve increased a lot since the year 1952 whereas the blue curve went down, which at least represents that the survey’s targets are having more people with advanced degrees. Of course, the sample won’t represent the population, so the shaded area is the potential outcome within a 95% interval.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;To further introduce the dataset, we are using the American National Election Studies (ANES)’s the dataset. ANES are surveys of voters in the U.S. on the national scale. For each presidential election since 1948, ANES collects responses from respondents both before and after the election. The goal of ANES is to understand political behaviors using systematic surveys. ANES’s data and results have been routinely used by news outlets, election campaigns, and political researchers.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;The Time Series Cumulative Data of ANES include answers, from respondents from different years, on selected questions that have been asked in three or more ANES’ Time Series studies. A tremendous amount of effort has been put into data consolidation as variables are often named differently in different years.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Mubai Liu</name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">I’m starting to build a blog!</title><link href="http://localhost:4000/life/2020/02/24/Firstpost.html" rel="alternate" type="text/html" title="I’m starting to build a blog!" /><published>2020-02-24T00:00:00-05:00</published><updated>2020-02-24T00:00:00-05:00</updated><id>http://localhost:4000/life/2020/02/24/Firstpost</id><content type="html" xml:base="http://localhost:4000/life/2020/02/24/Firstpost.html">&lt;p&gt;I’ve never thought I would have such huge amount of interests to start a blog, but here I am. It is apparently a low reward, high cost job to do, and kept me away from doing so since the day I was born.&lt;/p&gt;
+&lt;p&gt;This kind of change of time could influences people so much that even the voting behavior may shift from one party to the other as we are going to discuss in this analysis blog. For the purpose of discussion, we are mainly focusing on the &lt;strong&gt;White Americans&lt;/strong&gt; and the two main parties in America: &lt;strong&gt;Democrats and Republicans&lt;/strong&gt;. We may answer a few questions listed below to make the purpose more clear:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Is there a change in how White American’s high educated/low educated people vote for the party?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. If so, what are the potential factors of such a phenomenon?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;potential-bias&quot;&gt;Potential Bias&lt;/h2&gt;
+
+&lt;p&gt;Although ANES is a reliable and credible resource of data, the potential bias inevitably exists. The first is caused by the limitation of the sample size.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/2020EduEle/respondents.png&quot; /&gt;
+Due to some reasons with either technical or human resources issues, each voting year has a various amount of surveyed data from the lowest 662 to the highest 5914, which would cause some boost of total invested people like what happens in 2012. Therefore, we mainly use the proportion as an interest of field to discuss in this blog to eliminate the potential bias.&lt;/p&gt;
+
+&lt;p&gt;Another downside of the survey data is that some variables are asked nearly all the years and some are asked only a few years. This causes that each variable has at least some proportion of NA values. We can see it through the following figure by noticing how much &lt;em&gt;NA&lt;/em&gt; values exist.
+&lt;img src=&quot;http://localhost:4000/images/2020EduEle/NA.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Therefore, when handling the data, we must avoid directly using the ones with NA values, or otherwise, it would be problematic for the visualization.&lt;/p&gt;
+
+&lt;p&gt;Before we touch on the actual data, let us think for a second, what variables could be useful when we are doing an analysis with education and the election? I’ll list all the variables that going to be discussed below, and I know there could be far more factors beyond.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Year&lt;/li&gt;
+  &lt;li&gt;Education Level&lt;/li&gt;
+  &lt;li&gt;Race&lt;/li&gt;
+  &lt;li&gt;Turnout&lt;/li&gt;
+  &lt;li&gt;Vote&lt;/li&gt;
+  &lt;li&gt;Region&lt;/li&gt;
+  &lt;li&gt;Government Spending&lt;/li&gt;
+  &lt;li&gt;Care About Who Would Win&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;education-break-down&quot;&gt;Education Break Down&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/2020EduEle/vote.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From the bar graph, we can conclude that there’s a reverse trending happening from the year of 2000. The 8 grades or less group tend to vote more for the Republicans whereas the advanced degree group tends to vote more for the Democrats. Historically speaking, we can definitely see more relatively low educated people willing to vote for Democrats and those who have a diploma of a college degree would rather vote Republican. So as far as the survey’s data represents, we can conclude that the first question we mentioned before is definitely a &lt;strong&gt;Yes, there indeed has a change&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now, let’s focus more on the second question, which is what may cause such a trend.&lt;/p&gt;
+
+&lt;h2 id=&quot;would-region-be-the-explanation&quot;&gt;Would Region be the Explanation?&lt;/h2&gt;
+
+&lt;p&gt;As we all know, geographic influences are huge for politics in America. Each state has their own preferences when considering which political side they’ll be. Maybe a citizen who grows up in a more advanced city or more educational resources would change how they vote? Let us examine the below graphs to see the answer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/2020EduEle/region.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From this graph, although each relative region has a growth of education level, the obvious huge growth is from Northeast and Southeast, which makes a lot of sense as the famous ivy league school is mostly located in the Northeast and the Universities in California are also with high reputations. The much better resources seem to lead to more growth in the number of highly educated people.&lt;/p&gt;
+
+&lt;p&gt;But does the geological differences really cause the shift of voting behaviors? Let’s take a more deep down look inside.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/2020EduEle/party.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From the above graphs, there are clearly not too many differences over time compared to the figure where we answer the first question. We can see the relative voting preferences are all around 0.5 and even though Northeast and Southeast have a greater chance of education, there can’t conclude anything about their behavior is caused by that specifically. Therefore, the region may not be such a crucial factor in the influences.&lt;/p&gt;
+
+&lt;h2 id=&quot;could-it-be-more-people-not-willing-to-vote&quot;&gt;Could it be more people not willing to vote?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/2020EduEle/turnout.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When we talk about the election, there’s at least some degree of people who will not vote. Although the above graphics can’t tell the reason for the turnout rate has changed over time, we now understand that each group of educated people may have a different voting behavior. The lower the degree, the higher chance of not voting.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-about-how-much-spending-the-government-willing-to-pay&quot;&gt;What about how much spending the government willing to pay?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/2020EduEle/govspend.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This might explain the reason that causes the differences in voting behaviors happening nowadays. The higher level of education, the more likely they want to get more support like welfare from the government. But it won’t explain the low level’s attitudes’ shift as they don’t much even care about how much money the government spends. Since the Democrats party now provides much more attention to the tuition and support of universities, these relatively higher educated people would rather support Democrats instead of Republicans.&lt;/p&gt;
+
+&lt;h2 id=&quot;do-different-educated-level-people-really-care-who-would-win&quot;&gt;Do different educated level people really care who would win?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/2020EduEle/care.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now for the final variable that we’re going to illustrate, we check whether or not the voting is pointless after all. Because that proportion of change may happen simply cause they don’t even care which parties win, especially for the low educated ones. All the graphs above have a similar shape which tells that people indeed start to care more about the election of who’s gonna win, which kinds of explaining why for the group of 8 grades or lower people may start to thinking differently compared to a half-century before. But the rate of don’t care is still very high compared to the advanced degree group.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;In conclusion, for the first question we’ve listed, the answer is a convincingly yes because of the proportion shifting as time goes on. But for the second question, due to the limitation of time and length of the blog, we simply can’t list all the factors (like income, etc.) to discuss and draw the graph with it, even though it is highly possible to be one of the reason. However, we managed to draw a few conclusions like the geological difference may not be the reason, and the concerns about who would win and how much of the government willing to pay for supporting education may be the answer to the second question.&lt;/p&gt;
+
+&lt;h2 id=&quot;reflection&quot;&gt;Reflection&lt;/h2&gt;
+
+&lt;p&gt;Like I’ve mentioned above, the more variables we use for analysis the more accurate our result will be to explain these differences in voting behavior. Note that attributes like age, gender, the occupation did not seem to have any impact on our result so I choose to ignore for a second. But without even try to check the hypothesis is dangerous. I understand that there is far more space to discover such as the more quantitative analysis beyond simply drawing graphs, but for now, we’re just settling down on the Exploratory part and if we have time we’ll do more like a prediction or inference on this dataset. This would be such an interesting topic with the upcoming 2020’s election.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Please check this repo to see more details &lt;a href=&quot;https://github.com/Mubai-Liu/Fall2020-Project1-Mubai-Liu&quot;&gt;github repository&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>Mubai Liu</name></author><category term="project" /><category term="data wrangling" /><category term="data visualization" /><category term="R" /><summary type="html">data wrangling, data visualization, R</summary></entry><entry><title type="html">I’m starting to build a blog!</title><link href="http://localhost:4000/life/2020/02/24/Firstpost.html" rel="alternate" type="text/html" title="I’m starting to build a blog!" /><published>2020-02-24T00:00:00-05:00</published><updated>2020-02-24T00:00:00-05:00</updated><id>http://localhost:4000/life/2020/02/24/Firstpost</id><content type="html" xml:base="http://localhost:4000/life/2020/02/24/Firstpost.html">&lt;p&gt;I’ve never thought I would have such huge amount of interests to start a blog, but here I am. It is apparently a low reward, high cost job to do, and kept me away from doing so since the day I was born.&lt;/p&gt;
 
 &lt;p&gt;I also tried to building the website page by using wordpress, but it turns out using that is not efficient and even required money to do so if you really want to get things down beautifully. The previous website page is &lt;a href=&quot;http://mubaiblog.epizy.com/&quot;&gt;here&lt;/a&gt;. As you may notice, its server requires a lot of time to respond because I’m using totally free domain and hosting. While now I’ve found the github page to be so easy to use and it’s totally free, so I’ll simply put all my related work and post here from now on.&lt;/p&gt;
 
