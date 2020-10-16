@@ -52,7 +52,7 @@ Before we touch on the actual data, let us think for a second, what variables co
 - Government Spending
 - Care About Who Would Win
 
-# Education Break Down
+## Education Break Down
 
 <img src="{{ site.url}}{{site.baseurl}}/images/2020EduEle/vote.png">
 
@@ -60,7 +60,7 @@ From the bar graph, we can conclude that there's a reverse trending happening fr
 
 Now, let's focus more on the second question, which is what may cause such a trend.
 
-# Would Region be the Explanation?
+## Would Region be the Explanation?
 
 
 
@@ -80,29 +80,29 @@ But does the geological differences really cause the shift of voting behaviors? 
 
 From the above graphs, there are clearly not too many differences over time compared to the figure where we answer the first question. We can see the relative voting preferences are all around 0.5 and even though Northeast and Southeast have a greater chance of education, there can't conclude anything about their behavior is caused by that specifically. Therefore, the region may not be such a crucial factor in the influences.
 
-# Could it be more people not willing to vote?
+## Could it be more people not willing to vote?
 
 <img src="{{ site.url}}{{site.baseurl}}/images/2020EduEle/turnout.png">
 
 When we talk about the election, there's at least some degree of people who will not vote. Although the above graphics can't tell the reason for the turnout rate has changed over time, we now understand that each group of educated people may have a different voting behavior. The lower the degree, the higher chance of not voting. 
 
-# What about how much spending the government willing to pay?
+## What about how much spending the government willing to pay?
 
 <img src="{{ site.url}}{{site.baseurl}}/images/2020EduEle/govspend.png">
 
 This might explain the reason that causes the differences in voting behaviors happening nowadays. The higher level of education, the more likely they want to get more support like welfare from the government. But it won't explain the low level's attitudes' shift as they don't much even care about how much money the government spends. Since the Democrats party now provides much more attention to the tuition and support of universities, these relatively higher educated people would rather support Democrats instead of Republicans. 
 
-# 7. Do different educated level people really care who would win?
+## Do different educated level people really care who would win?
 
 <img src="{{ site.url}}{{site.baseurl}}/images/2020EduEle/care.png">
 
 Now for the final variable that we're going to illustrate, we check whether or not the voting is pointless after all. Because that proportion of change may happen simply cause they don't even care which parties win, especially for the low educated ones. All the graphs above have a similar shape which tells that people indeed start to care more about the election of who's gonna win, which kinds of explaining why for the group of 8 grades or lower people may start to thinking differently compared to a half-century before. But the rate of don't care is still very high compared to the advanced degree group. 
 
-# 8. Conclusion
+## Conclusion
 
 In conclusion, for the first question we've listed, the answer is a convincingly yes because of the proportion shifting as time goes on. But for the second question, due to the limitation of time and length of the blog, we simply can't list all the factors (like income, etc.) to discuss and draw the graph with it, even though it is highly possible to be one of the reason. However, we managed to draw a few conclusions like the geological difference may not be the reason, and the concerns about who would win and how much of the government willing to pay for supporting education may be the answer to the second question.
 
-# 9. Reflection
+## Reflection
 
 Like I've mentioned above, the more variables we use for analysis the more accurate our result will be to explain these differences in voting behavior. Note that attributes like age, gender, the occupation did not seem to have any impact on our result so I choose to ignore for a second. But without even try to check the hypothesis is dangerous. I understand that there is far more space to discover such as the more quantitative analysis beyond simply drawing graphs, but for now, we're just settling down on the Exploratory part and if we have time we'll do more like a prediction or inference on this dataset. This would be such an interesting topic with the upcoming 2020's election.
 
