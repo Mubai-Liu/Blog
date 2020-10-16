@@ -181,7 +181,7 @@ kramdown:
   enable_coderay: false
 
 
-gems: [jekyll-paginate, jekyll-paginate-category]
+#gems: [jekyll-paginate, jekyll-paginate-category]
 
 paginate: 5
 paginate_path: "page:num"
@@ -195,6 +195,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-paginate-category
 
   # mimic GitHub Pages with --safe
 whitelist:
