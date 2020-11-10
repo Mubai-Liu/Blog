@@ -1,6 +1,6 @@
 ---
 title: "I'm starting to build a blog!"
-data: 2020-02-24
+data: 2020-02-04
 tags: [Personal]
 categories: life
 toc: true
